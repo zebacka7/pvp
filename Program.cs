@@ -719,7 +719,7 @@ namespace project
     {
       if (orc == false)
       {
-        int opt = ValidOption(" 1:Aqua prison  2:Charm  3:Heal   4:Shield", 1, 4);
+        int opt = ValidOption(" 1:Aqua prison  2:Charm  3:Heal   4:Shield ", 1, 4);
         Rand rand = new Rand();
         double aquadamage = Intelligence * rand.Run(7, 13) / 10;
         double heal = Intelligence * rand.Run(5, 15) / 10;
